@@ -33,7 +33,6 @@ body {
 		 position:relative;
 		 margin:0 auto;
 		 padding-top:30px;
-		 //background-color:rgba(213,40,43,1.00);
 		 
 		 	@media screen and (max-width:1024px) {
 		            width:600px;
@@ -249,7 +248,7 @@ nav {
 		           right:200px;
 	              }
 		  @media screen and (max-width:550px) {
-					  left:150px;  
+					 right:100px;
 		          
 	            } 
 			  
@@ -280,7 +279,7 @@ nav {
 	              }
 		  @media screen and (max-width:550px) {
 				  float:none;	    
-		          width:300px;
+		          width:290px;
 				  margin:0px 20px 0px 10px;
 				  height:auto;
 	            } 
@@ -363,7 +362,13 @@ nav {
 		  position:relative;
 	     width:1200px;
 		 height:auto;
-		 margin:0 auto;   
+		 margin:0 auto; 
+		  @media screen and (max-width:1024px) {
+		           width:600px;
+	              }
+		  @media screen and (max-width:550px) {
+		          width:300px;
+	            }   
 		 
 		 h2 {
 			  margin:0px 0px 20px 30px;
@@ -395,7 +400,7 @@ nav {
 					    
 		               width:280px;
 						  word-wrap:break-word;
-		                     margin:0px 30px 20px 40px;
+		                     margin:0px 30px 20px 20px;
 							  font-size:16px;
 	            } 
 				  font: {

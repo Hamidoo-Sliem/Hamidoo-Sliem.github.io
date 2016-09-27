@@ -167,7 +167,7 @@ nav {
           right: 200px; } }
       @media screen and (max-width: 550px) {
         #slider-wrap #slider #pager {
-          left: 150px; } }
+          right: 100px; } }
       #slider-wrap #slider #pager a {
         width: 20px;
         height: 20px;
@@ -191,7 +191,7 @@ nav {
       @media screen and (max-width: 550px) {
         #slider-wrap #slider figure {
           float: none;
-          width: 300px;
+          width: 290px;
           margin: 0px 20px 0px 10px;
           height: auto; } }
       #slider-wrap #slider figure img {
@@ -246,6 +246,12 @@ nav {
     width: 1200px;
     height: auto;
     margin: 0 auto; }
+    @media screen and (max-width: 1024px) {
+      #about-wrap #about {
+        width: 600px; } }
+    @media screen and (max-width: 550px) {
+      #about-wrap #about {
+        width: 300px; } }
     #about-wrap #about h2 {
       margin: 0px 0px 20px 30px;
       padding-top: 30px;
@@ -273,7 +279,7 @@ nav {
         #about-wrap #about p {
           width: 280px;
           word-wrap: break-word;
-          margin: 0px 30px 20px 40px;
+          margin: 0px 30px 20px 20px;
           font-size: 16px; } }
     #about-wrap #about figure {
       float: left;
