@@ -1,0 +1,336 @@
+::-moz-selection {
+  background-color: #ff7400;
+  color: #000; }
+
+::selection {
+  background-color: #ff7400;
+  color: #000; }
+
+body {
+  background-color: #1a1d20; }
+
+#top-header {
+  width: 100%;
+  height: 140px; }
+  @media screen and (max-width: 550px) {
+    #top-header {
+      height: 230px; } }
+  #top-header #head {
+    width: 1200px;
+    height: 140px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 30px; }
+    @media screen and (max-width: 1024px) {
+      #top-header #head {
+        width: 600px; } }
+    @media screen and (max-width: 550px) {
+      #top-header #head {
+        width: 300px;
+        height: 230px; } }
+    #top-header #head #icons {
+      position: absolute;
+      right: 100px;
+      top: 40px;
+      width: 160px;
+      height: 70px; }
+      @media screen and (max-width: 1024px) {
+        #top-header #head #icons {
+          right: 0px; } }
+      @media screen and (max-width: 550px) {
+        #top-header #head #icons {
+          top: 140px;
+          left: 0px; } }
+      #top-header #head #icons p {
+        color: #ff7400; }
+      #top-header #head #icons a {
+        display: inline-block;
+        width: 50px;
+        height: 50px; }
+        #top-header #head #icons a:nth-child(1) {
+          background-image: url(../images/sprite.png);
+          background-repeat: no-repeat;
+          background-position: -2px top; }
+          #top-header #head #icons a:nth-child(1):hover {
+            background-position: -2px bottom; }
+        #top-header #head #icons a:nth-child(2) {
+          background-image: url(../images/sprite.png);
+          background-repeat: no-repeat;
+          background-position: -52px top; }
+          #top-header #head #icons a:nth-child(2):hover {
+            background-position: -52px bottom; }
+        #top-header #head #icons a:nth-child(3) {
+          background-image: url(../images/sprite.png);
+          background-repeat: no-repeat;
+          background-position: right top; }
+          #top-header #head #icons a:nth-child(3):hover {
+            background-position: right bottom; }
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #000; }
+  @media screen and (max-width: 1024px) {
+    nav {
+      height: auto; } }
+  @media screen and (max-width: 550px) {
+    nav {
+      height: auto; } }
+  nav #navigation {
+    width: 1200px;
+    height: 80px;
+    position: relative;
+    margin: 0 auto; }
+    @media screen and (max-width: 1024px) {
+      nav #navigation {
+        width: 600px;
+        height: auto;
+        padding: 5px 0px 10px 0px; } }
+    @media screen and (max-width: 550px) {
+      nav #navigation {
+        width: 300px;
+        padding: 5px 0px 10px 0px;
+        height: auto; } }
+    nav #navigation ul {
+      padding: 0px;
+      margin: 0px; }
+    nav #navigation li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 25px 20px 0px 20px; }
+      @media screen and (max-width: 1024px) {
+        nav #navigation li {
+          display: block;
+          text-align: center; } }
+      @media screen and (max-width: 550px) {
+        nav #navigation li {
+          display: block;
+          text-align: center; } }
+      nav #navigation li a {
+        color: #ccc;
+        letter-spacing: 2px;
+        font-family: "Times New Roman", serif;
+        font-size: 20px;
+        font-variant: small-caps;
+        text-transform: capitalize; }
+        nav #navigation li a:hover {
+          text-decoration: none;
+          color: #ff7400; }
+      nav #navigation li:first-child a {
+        color: #ff7400;
+        margin-left: 50px; }
+        @media screen and (max-width: 1024px) {
+          nav #navigation li:first-child a {
+            margin-left: 0px; } }
+        @media screen and (max-width: 550px) {
+          nav #navigation li:first-child a {
+            margin-left: 0px; } }
+
+.active {
+  color: #ff7400;
+  margin-left: 30px; }
+
+#slider-wrap {
+  width: 100%;
+  height: 300px;
+  border-bottom: 4px solid #ff7400;
+  box-shadow: 2px 2px 4px #000; }
+  @media screen and (max-width: 1024px) {
+    #slider-wrap {
+      height: 250px; } }
+  @media screen and (max-width: 550px) {
+    #slider-wrap {
+      height: 400px; } }
+  #slider-wrap #slider {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto; }
+    @media screen and (max-width: 1024px) {
+      #slider-wrap #slider {
+        width: 600px;
+        height: 250px; } }
+    @media screen and (max-width: 550px) {
+      #slider-wrap #slider {
+        height: 400px; } }
+    #slider-wrap #slider section {
+      position: absolute; }
+    #slider-wrap #slider #pager {
+      position: absolute;
+      width: auto;
+      right: 400px;
+      height: 20px;
+      bottom: 30px; }
+      @media screen and (max-width: 1024px) {
+        #slider-wrap #slider #pager {
+          right: 200px; } }
+      @media screen and (max-width: 550px) {
+        #slider-wrap #slider #pager {
+          left: 150px; } }
+      #slider-wrap #slider #pager a {
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        display: inline-block;
+        margin-right: 3px;
+        border-radius: 50%; }
+        #slider-wrap #slider #pager a.current {
+          background-color: #ff7400; }
+        #slider-wrap #slider #pager a:hover {
+          background-color: #ff7400; }
+    #slider-wrap #slider figure {
+      float: left;
+      width: 500px;
+      height: 300px;
+      margin: 0px 40px 0px 50px; }
+      @media screen and (max-width: 1024px) {
+        #slider-wrap #slider figure {
+          width: 300px;
+          margin: 0px 20px 0px 0px; } }
+      @media screen and (max-width: 550px) {
+        #slider-wrap #slider figure {
+          float: none;
+          width: 300px;
+          margin: 0px 20px 0px 10px;
+          height: auto; } }
+      #slider-wrap #slider figure img {
+        margin-top: 30px; }
+    #slider-wrap #slider article {
+      float: left;
+      width: 500px;
+      height: 300px; }
+      @media screen and (max-width: 1024px) {
+        #slider-wrap #slider article {
+          width: 280px; } }
+      @media screen and (max-width: 550px) {
+        #slider-wrap #slider article {
+          float: none;
+          width: 300px;
+          height: auto; } }
+      #slider-wrap #slider article h1 {
+        margin: 70px 0px 20px 10px;
+        color: #fff;
+        font-family: "Times New Roman", serif;
+        font-size: 40px;
+        font-variant: small-caps; }
+        @media screen and (max-width: 1024px) {
+          #slider-wrap #slider article h1 {
+            margin: 20px 0px 20px 10px; } }
+        @media screen and (max-width: 550px) {
+          #slider-wrap #slider article h1 {
+            margin: 20px 0px 20px 10px; } }
+      #slider-wrap #slider article p {
+        margin: 0px 0px 10px 15px;
+        color: #ccc;
+        font-family: "Times New Roman", serif;
+        font-size: 20px; }
+      #slider-wrap #slider article a.btn-primary {
+        margin-left: 15px;
+        border: none;
+        background-color: #ff7400;
+        color: #1a1d20; }
+        #slider-wrap #slider article a.btn-primary:hover {
+          background-color: #cc5d00;
+          color: #fff; }
+
+#about-wrap {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding-bottom: 40px;
+  border-bottom: 4px solid #ff7400;
+  box-shadow: 2px 2px 4px #000; }
+  #about-wrap #about {
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto; }
+    #about-wrap #about h2 {
+      margin: 0px 0px 20px 30px;
+      padding-top: 30px;
+      color: #666;
+      font-family: "Times New Roman", serif;
+      font-size: 40px; }
+      @media screen and (max-width: 1024px) {
+        #about-wrap #about h2 {
+          font-size: 30px; } }
+      @media screen and (max-width: 550px) {
+        #about-wrap #about h2 {
+          font-size: 30px; } }
+    #about-wrap #about p {
+      margin: 0px 100px 20px 40px;
+      color: #000;
+      font-family: "Times New Roman", serif;
+      font-size: 20px; }
+      @media screen and (max-width: 1024px) {
+        #about-wrap #about p {
+          width: 600px;
+          word-wrap: break-word;
+          margin: 0px 30px 20px 40px;
+          font-size: 16px; } }
+      @media screen and (max-width: 550px) {
+        #about-wrap #about p {
+          width: 280px;
+          word-wrap: break-word;
+          margin: 0px 30px 20px 40px;
+          font-size: 16px; } }
+    #about-wrap #about figure {
+      float: left;
+      width: 250px;
+      margin: 10px 40px 10px 60px; }
+      @media screen and (max-width: 1024px) {
+        #about-wrap #about figure {
+          margin: 10px 20px 10px 30px; } }
+      @media screen and (max-width: 550px) {
+        #about-wrap #about figure {
+          float: none; } }
+    #about-wrap #about aside {
+      float: left; }
+      @media screen and (max-width: 550px) {
+        #about-wrap #about aside {
+          float: none;
+          margin-left: 20px; } }
+      #about-wrap #about aside table {
+        width: 400px; }
+        @media screen and (max-width: 550px) {
+          #about-wrap #about aside table {
+            width: 290px; } }
+        #about-wrap #about aside table td, #about-wrap #about aside table th {
+          padding: 8px; }
+          @media screen and (max-width: 550px) {
+            #about-wrap #about aside table td, #about-wrap #about aside table th {
+              padding: 5px 0px;
+              font-size: 12px; } }
+      #about-wrap #about aside h3 {
+        margin-top: 50px;
+        border-bottom: 1px solid #ccc;
+        font-family: "Times New Roman", serif;
+        font-size: 30px; }
+      #about-wrap #about aside small {
+        display: block;
+        margin: 0px 0px 20px 0px;
+        letter-spacing: 3px; }
+
+footer {
+  width: 100%;
+  height: 200px; }
+  footer #foo {
+    position: relative;
+    width: 600px;
+    height: 170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    color: #ccc; }
+    @media screen and (max-width: 550px) {
+      footer #foo {
+        width: 300px;
+        font-size: 10px; } }
+    footer #foo a {
+      display: inline-block;
+      color: #ccc;
+      margin-left: 10px; }
+      footer #foo a:hover {
+        color: #fff; }
+    footer #foo figure {
+      width: 90px; }
