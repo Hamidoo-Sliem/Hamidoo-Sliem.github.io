@@ -3,9 +3,10 @@
 function init() {
    'use strict';   
 	 var website = new HAMDYWORLD.WebSite();
+
 	  website._hiddenSec();
 	  website._getBullets();	  
-	 // website._toggNav();
+
 
 }
 
@@ -18,16 +19,12 @@ HAMDYWORLD.WebSite=function  () {
 	 that.section=$("#slider section");
 	 that.index = 1;
 	 that.lenSec = that.section.length;
+	 that.url="."+document.URL.substring(document.URL.lastIndexOf("/"));
+	 
 	 that._hiddenSec = function () {
 		  $('#slider section:gt(0)').hide(); 
 	 };
-	 
-	 /* that._toggNav = function () {
-		  $("nav a#nav-togg").on("click",function() {
-		  $("nav ul.ul").slideToggle(1000,"easeOutBounce");
-	     }); 
-	 };
-	 */
+	
 	 setInterval(function () { that._forwardSlider() ;},5000);
 };
 

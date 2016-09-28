@@ -202,8 +202,7 @@ nav {
 }
 
 .active {
-	      color:nth($colors,2);
-		  margin-left:30px; 
+	      color:nth($colors,2) !important;
 }
 
 
@@ -377,7 +376,7 @@ nav {
 		                    font-size:30px;
 	              }
 		              @media screen and (max-width:550px) {
-					    
+					    margin:0px 0px 20px 10px;
 		                font-size:30px;
 	            } 
 				 color:#666;
