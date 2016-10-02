@@ -367,7 +367,15 @@ nav {
 	              }
 		  @media screen and (max-width:550px) {
 		          width:300px;
-	            }   
+	            }  
+				
+				ul li {
+				    margin:10px 10px 10px 30px;
+					font-weight:bold;	
+				}
+				.pull-left {
+					margin-right:50px;
+				}
 		 
 		 h2 {
 			  margin:0px 0px 20px 30px;

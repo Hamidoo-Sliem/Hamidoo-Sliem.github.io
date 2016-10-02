@@ -251,6 +251,11 @@ nav {
     @media screen and (max-width: 550px) {
       #about-wrap #about {
         width: 300px; } }
+    #about-wrap #about ul li {
+      margin: 10px 10px 10px 30px;
+      font-weight: bold; }
+    #about-wrap #about .pull-left {
+      margin-right: 50px; }
     #about-wrap #about h2 {
       margin: 0px 0px 20px 30px;
       padding-top: 30px;
