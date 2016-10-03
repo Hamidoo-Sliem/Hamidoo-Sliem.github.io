@@ -482,6 +482,21 @@ nav {
 }
 
 
+.container-fluid {
+	figure {
+	  img {
+		 border:4px solid #ccc;
+	  }
+		 &:hover {
+			transform:rotateY(180deg);
+		 }
+	 }
+      figcaption {
+		   text-align:center;  
+	  }
+}
+
+
 %footer {
     width:percentage(1);
 	 height:200px;

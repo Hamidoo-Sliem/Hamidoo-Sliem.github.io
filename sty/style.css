@@ -323,6 +323,15 @@ nav {
         margin: 0px 0px 20px 0px;
         letter-spacing: 3px; }
 
+.container-fluid figure img {
+  border: 4px solid #ccc; }
+
+.container-fluid figure:hover {
+  transform: rotateY(180deg); }
+
+.container-fluid figcaption {
+  text-align: center; }
+
 footer {
   width: 100%;
   height: 200px; }
