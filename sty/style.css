@@ -332,6 +332,36 @@ nav {
 .container-fluid figcaption {
   text-align: center; }
 
+.container-fluid form {
+  margin-left: 30px;
+  width: 600px; }
+  @media screen and (max-width: 1024px) {
+    .container-fluid form {
+      width: auto; } }
+  @media screen and (max-width: 550px) {
+    .container-fluid form {
+      width: auto; } }
+  .container-fluid form input[type='text'] {
+    box-shadow: none; }
+    .container-fluid form input[type='text']:focus {
+      box-shadow: 1px 1px 1px rgba(255, 116, 0, 0.4), -1px -1px 1px rgba(255, 116, 0, 0.4);
+      border: 1px solid #ff7400; }
+  .container-fluid form textarea {
+    box-shadow: none;
+    resize: none;
+    height: 100px;
+    overflow: auto; }
+    .container-fluid form textarea:focus {
+      box-shadow: 1px 1px 1px rgba(255, 116, 0, 0.4), -1px -1px 1px rgba(255, 116, 0, 0.4);
+      border: 1px solid #ff7400; }
+  .container-fluid form .btn-primary {
+    border: none;
+    background-color: #ff7400;
+    color: #1a1d20; }
+    .container-fluid form .btn-primary:hover {
+      background-color: #cc5d00;
+      color: #fff; }
+
 footer {
   width: 100%;
   height: 200px; }
