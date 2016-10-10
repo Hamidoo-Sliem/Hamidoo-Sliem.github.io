@@ -6,7 +6,7 @@ function init() {
 
 	  website._hiddenSec();
 	  website._getBullets();	  
-      website._activeLink();	
+      website._niceScroll();	
 
 }
 
@@ -24,11 +24,8 @@ HAMDYWORLD.WebSite=function  () {
 		  $('#slider section:gt(0)').hide(); 
 	 };
 	 
-	  that._activeLink = function () {
-		  $('#navigation li a').on('click', function() {
-            $(this).addClass("active");
-			
-        });
+	  that._niceScroll = function () {
+		  $("html").niceScroll({cursorcolor:"#ff7400"});
 	 };
 	
 	 setInterval(function () { that._forwardSlider() ;},5000);
