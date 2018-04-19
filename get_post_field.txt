@@ -1,0 +1,3 @@
+function in wordpress to get value of column 
+
+get_post_field();
